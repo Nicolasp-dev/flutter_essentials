@@ -1,0 +1,64 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code: launch.json/tasks.json dependen de tu máquina (ruta del SDK de
+# Android, emulador Pixel_5), así que no se suben.
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Widget Preview related
+.widget_preview/
+
+# Binarios de la app (por si los copias fuera de /build)
+*.apk
+*.aab
+*.ipa
+
+# FVM (Flutter Version Management), si algún día lo usas
+.fvm/flutter_sdk
+
+# Secretos y configuración local: nunca subirlos a un repo público
+.env
+.env.*
+!.env.example
+# Firebase: descomenta si agregas Firebase y no quieres exponer la config
+# **/android/app/google-services.json
+# **/ios/Runner/GoogleService-Info.plist
+# lib/firebase_options.dart
